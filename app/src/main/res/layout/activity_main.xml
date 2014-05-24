@@ -1,0 +1,164 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="@dimen/imagen"
+                android:layout_height="@dimen/imagen"
+                android:id="@+id/imageView"
+                android:src="@drawable/logos_academy"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Segundo"
+                    android:id="@+id/button"
+                    android:onClick="to_segundo" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Tercero"
+                    android:id="@+id/button2"
+                    android:onClick="to_tercero" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Cuarto"
+                    android:id="@+id/button3"
+                    android:onClick="to_cuarto" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Quinto"
+                    android:id="@+id/button4"
+                    android:onClick="to_quinto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Sexto"
+                    android:id="@+id/button5"
+                    android:onClick="to_sexto" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Septimo"
+                    android:id="@+id/button6"
+                    android:onClick="to_septimo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Octavo"
+                    android:id="@+id/button7"
+                    android:onClick="to_octavo" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Noveno"
+                    android:id="@+id/button8"
+                    android:onClick="to_noveno" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Decimo"
+                    android:id="@+id/button9"
+                    android:onClick="to_decimo" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="1ro bachillerato"
+                    android:id="@+id/button10"
+                    android:onClick="to_1bach" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="2do Bachillerato"
+                    android:id="@+id/button11"
+                    android:onClick="to_2bach" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="3ro Bachillerato"
+                    android:id="@+id/button12"
+                    android:onClick="to_3bach" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tipson"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/imagen"
+                android:layout_height="@dimen/imagen"
+                android:id="@+id/imageView"
+                android:src="@drawable/logos_academy" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="English Higher 1"
+                    android:id="@+id/button2"
+                    android:onClick="to_decimo_english_higher1" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="English Higher 2"
+                    android:id="@+id/button3"
+                    android:onClick="to_decimo_english_higher2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="English SL"
+                    android:id="@+id/button4"
+                    android:onClick="to_decimo_english_sl" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Lenguaje A"
+                    android:id="@+id/button5"
+                    android:onClick="to_decimo_lenguaje_a" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Lenguaje B-C"
+                    android:id="@+id/button6"
+                    android:onClick="to_decimo_lenguaje_bc" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Es. Sociales"
+                    android:id="@+id/button"
+                    android:onClick="to_decimo_es_sociales" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Matemáticas Higher 1"
+                    android:id="@+id/button8"
+                    android:onClick="to_decimo_matematicas_higher1" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Matemáticas Higher 2"
+                    android:id="@+id/button9"
+                    android:onClick="to_decimo_matematicas_higher2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Matemáticas SL"
+                    android:id="@+id/button10"
+                    android:onClick="to_decimo_matematicas_sl" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Social Studies A"
+                    android:id="@+id/button11"
+                    android:onClick="to_decimo_social_studiesa" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Social Studies B"
+                    android:id="@+id/button12"
+                    android:onClick="to_decimo_social_studiesb" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Social Studies C"
+                    android:id="@+id/button13"
+                    android:onClick="to_decimo_social_studiesc" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tipson"
+                android:id="@+id/textView"
+                android:layout_marginTop="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

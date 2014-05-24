@@ -1,0 +1,282 @@
+<!-- From: file:/home/adriantora/AndroidStudioProjects/Virtualogos/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.produccionestipson.virtualogos.app">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.produccionestipson.virtualogos.app.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_segundo_materias" android:name="com.produccionestipson.virtualogos.app.segundo_materias">
+        </activity>
+        <activity android:label="@string/title_activity_tercero_materias" android:name="com.produccionestipson.virtualogos.app.tercero_materias">
+        </activity>
+        <activity android:label="@string/title_activity_cuarto_materias" android:name="com.produccionestipson.virtualogos.app.cuarto_materias">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_materias" android:name="com.produccionestipson.virtualogos.app.quinto_materias">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_materias" android:name="com.produccionestipson.virtualogos.app.sexto_materias">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_materias" android:name="com.produccionestipson.virtualogos.app.septimo_materias">
+        </activity>
+        <activity android:label="@string/title_activity_octavo_materias" android:name="com.produccionestipson.virtualogos.app.octavo_materias">
+        </activity>
+        <activity android:label="@string/title_activity_noveno_materias" android:name="com.produccionestipson.virtualogos.app.noveno_materias">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_materias" android:name="com.produccionestipson.virtualogos.app.decimo_materias">
+        </activity>
+        <activity android:label="@string/title_activity_primero_bach_materias" android:name="com.produccionestipson.virtualogos.app.primero_bach_materias">
+        </activity>
+        <activity android:label="@string/title_activity_segundo_bach_materias" android:name="com.produccionestipson.virtualogos.app.segundo_bach_materias">
+        </activity>
+        <activity android:label="@string/title_activity_tercero_bach_materias" android:name="com.produccionestipson.virtualogos.app.tercero_bach_materias">
+        </activity>
+        <activity android:label="@string/title_activity_segundo_english_ab" android:name="com.produccionestipson.virtualogos.app.segundo_english_ab">
+        </activity>
+        <activity android:label="@string/title_activity_segundo_english_cd" android:name="com.produccionestipson.virtualogos.app.segundo_english_cd">
+        </activity>
+        <activity android:label="@string/title_activity_segundo_environment" android:name="com.produccionestipson.virtualogos.app.segundo_environment">
+        </activity>
+        <activity android:label="@string/title_activity_segundo_espanol_a" android:name="com.produccionestipson.virtualogos.app.segundo_espanol_a">
+        </activity>
+        <activity android:label="@string/title_activity_segundo_espanol_b" android:name="com.produccionestipson.virtualogos.app.segundo_espanol_b">
+        </activity>
+        <activity android:label="@string/title_activity_segundo_espanol_c" android:name="com.produccionestipson.virtualogos.app.segundo_espanol_c">
+        </activity>
+        <activity android:label="@string/title_activity_segundo_espanol_d" android:name="com.produccionestipson.virtualogos.app.segundo_espanol_d">
+        </activity>
+        <activity android:label="@string/title_activity_tercero_english_a" android:name="com.produccionestipson.virtualogos.app.tercero_english_a">
+        </activity>
+        <activity android:label="@string/title_activity_tercero_english_b" android:name="com.produccionestipson.virtualogos.app.tercero_english_b">
+        </activity>
+        <activity android:label="@string/title_activity_tercero_english_cd" android:name="com.produccionestipson.virtualogos.app.tercero_english_cd">
+        </activity>
+        <activity android:label="@string/title_activity_tercero_environment" android:name="com.produccionestipson.virtualogos.app.tercero_environment">
+        </activity>
+        <activity android:label="@string/title_activity_tercero_lenguaje_ab" android:name="com.produccionestipson.virtualogos.app.tercero_lenguaje_ab">
+        </activity>
+        <activity android:label="@string/title_activity_tercero_lenguaje_cd" android:name="com.produccionestipson.virtualogos.app.tercero_lenguaje_cd">
+        </activity>
+        <activity android:label="@string/title_activity_tercero_matematicas" android:name="com.produccionestipson.virtualogos.app.tercero_matematicas">
+        </activity>
+        <activity android:label="@string/title_activity_cuarto_english_air1" android:name="com.produccionestipson.virtualogos.app.cuarto_english_air1">
+        </activity>
+        <activity android:label="@string/title_activity_cuarto_english_air2" android:name="com.produccionestipson.virtualogos.app.cuarto_english_air2">
+        </activity>
+        <activity android:label="@string/title_activity_cuarto_english_air3" android:name="com.produccionestipson.virtualogos.app.cuarto_english_air3">
+        </activity>
+        <activity android:label="@string/title_activity_cuarto_english_land" android:name="com.produccionestipson.virtualogos.app.cuarto_english_land">
+        </activity>
+        <activity android:label="@string/title_activity_cuarto_es_sociales" android:name="com.produccionestipson.virtualogos.app.cuarto_es_sociales">
+        </activity>
+        <activity android:label="@string/title_activity_cuarto_lenguaje" android:name="com.produccionestipson.virtualogos.app.cuarto_lenguaje">
+        </activity>
+        <activity android:label="@string/title_activity_cuarto_matematicas" android:name="com.produccionestipson.virtualogos.app.cuarto_matematicas">
+        </activity>
+        <activity android:label="@string/title_activity_cuarto_science" android:name="com.produccionestipson.virtualogos.app.cuarto_science">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_english_air1" android:name="com.produccionestipson.virtualogos.app.quinto_english_air1">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_english_air2" android:name="com.produccionestipson.virtualogos.app.quinto_english_air2">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_english_land" android:name="com.produccionestipson.virtualogos.app.quinto_english_land">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_english_water" android:name="com.produccionestipson.virtualogos.app.quinto_english_water">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_es_sociales" android:name="com.produccionestipson.virtualogos.app.quinto_es_sociales">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_science" android:name="com.produccionestipson.virtualogos.app.quinto_science">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_lenguaje" android:name="com.produccionestipson.virtualogos.app.quinto_lenguaje">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_matematicas_sl" android:name="com.produccionestipson.virtualogos.app.quinto_matematicas_sl">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_matematicas_higher1" android:name="com.produccionestipson.virtualogos.app.quinto_matematicas_higher1">
+        </activity>
+        <activity android:label="@string/title_activity_quinto_matematicas_higher2" android:name="com.produccionestipson.virtualogos.app.quinto_matematicas_higher2">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_english_air1" android:name="com.produccionestipson.virtualogos.app.sexto_english_air1">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_english_air2" android:name="com.produccionestipson.virtualogos.app.sexto_english_air2">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_english_water" android:name="com.produccionestipson.virtualogos.app.sexto_english_water">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_es_sociales" android:name="com.produccionestipson.virtualogos.app.sexto_es_sociales">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_lenguaje" android:name="com.produccionestipson.virtualogos.app.sexto_lenguaje">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_matematicas_sl" android:name="com.produccionestipson.virtualogos.app.sexto_matematicas_sl">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_matematicas_higher1" android:name="com.produccionestipson.virtualogos.app.sexto_matematicas_higher1">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_matematicas_higher2" android:name="com.produccionestipson.virtualogos.app.sexto_matematicas_higher2">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_science_ad" android:name="com.produccionestipson.virtualogos.app.sexto_science_ad">
+        </activity>
+        <activity android:label="@string/title_activity_sexto_science_bc" android:name="com.produccionestipson.virtualogos.app.sexto_science_bc">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_english_air1" android:name="com.produccionestipson.virtualogos.app.septimo_english_air1">
+        </activity>
+        <activity android:label="@string/title_activity_english_air2" android:name="com.produccionestipson.virtualogos.app.english_air2">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_english_air2" android:name="com.produccionestipson.virtualogos.app.septimo_english_air2">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_english_water" android:name="com.produccionestipson.virtualogos.app.septimo_english_water">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_es_sociales" android:name="com.produccionestipson.virtualogos.app.septimo_es_sociales">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_lenguaje" android:name="com.produccionestipson.virtualogos.app.septimo_lenguaje">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_matematicas_higher1" android:name="com.produccionestipson.virtualogos.app.septimo_matematicas_higher1">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_matematicas_higher2" android:name="com.produccionestipson.virtualogos.app.septimo_matematicas_higher2">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_matematicas_sl" android:name="com.produccionestipson.virtualogos.app.septimo_matematicas_sl">
+        </activity>
+        <activity android:label="@string/title_activity_septimo_science" android:name="com.produccionestipson.virtualogos.app.septimo_science">
+        </activity>
+        <activity android:label="@string/title_activity_octavo_es_sociales" android:name="com.produccionestipson.virtualogos.app.octavo_es_sociales">
+        </activity>
+        <activity android:label="@string/title_activity_octavo_science" android:name="com.produccionestipson.virtualogos.app.octavo_science">
+        </activity>
+        <activity android:label="@string/title_activity_octavo_english_sl" android:name="com.produccionestipson.virtualogos.app.octavo_english_sl">
+        </activity>
+        <activity android:label="@string/title_activity_octavo_english_higher" android:name="com.produccionestipson.virtualogos.app.octavo_english_higher">
+        </activity>
+        <activity android:label="@string/title_activity_octavo_matematicas_sl" android:name="com.produccionestipson.virtualogos.app.octavo_matematicas_sl">
+        </activity>
+        <activity android:label="@string/title_activity_octavo_matematicas_higher" android:name="com.produccionestipson.virtualogos.app.octavo_matematicas_higher">
+        </activity>
+        <activity android:label="@string/title_activity_octavo_lenguaje" android:name="com.produccionestipson.virtualogos.app.octavo_lenguaje">
+        </activity>
+        <activity android:label="@string/title_activity_octavo_social_studies" android:name="com.produccionestipson.virtualogos.app.octavo_social_studies">
+        </activity>
+        <activity android:label="@string/title_activity_noveno_es_sociales" android:name="com.produccionestipson.virtualogos.app.noveno_es_sociales">
+        </activity>
+        <activity android:label="@string/title_activity_noveno_lenguaje" android:name="com.produccionestipson.virtualogos.app.noveno_lenguaje">
+        </activity>
+        <activity android:label="@string/title_activity_main_activity2" android:name="com.produccionestipson.virtualogos.app.MainActivity2">
+        </activity>
+        <activity android:label="@string/title_activity_noveno_english_sl" android:name="com.produccionestipson.virtualogos.app.noveno_english_sl">
+        </activity>
+        <activity android:label="@string/title_activity_noveno_english_higher" android:name="com.produccionestipson.virtualogos.app.noveno_english_higher">
+        </activity>
+        <activity android:label="@string/title_activity_noveno_matematicas_sl" android:name="com.produccionestipson.virtualogos.app.noveno_matematicas_sl">
+        </activity>
+        <activity android:label="@string/title_activity_noveno_matematicas_higher" android:name="com.produccionestipson.virtualogos.app.noveno_matematicas_higher">
+        </activity>
+        <activity android:label="@string/title_activity_noveno_science" android:name="com.produccionestipson.virtualogos.app.noveno_science">
+        </activity>
+        <activity android:label="@string/title_activity_noveno_social_studies" android:name="com.produccionestipson.virtualogos.app.noveno_social_studies">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_english_higher1" android:name="com.produccionestipson.virtualogos.app.decimo_english_higher1">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_english_higher2" android:name="com.produccionestipson.virtualogos.app.decimo_english_higher2">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_english_sl" android:name="com.produccionestipson.virtualogos.app.decimo_english_sl">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_lenguajea" android:name="com.produccionestipson.virtualogos.app.decimo_lenguajea">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_lenguajebc" android:name="com.produccionestipson.virtualogos.app.decimo_lenguajebc">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_es_sociales" android:name="com.produccionestipson.virtualogos.app.decimo_es_sociales">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_matematicas_higher" android:name="com.produccionestipson.virtualogos.app.decimo_matematicas_higher">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_matematicas_higher1" android:name="com.produccionestipson.virtualogos.app.decimo_matematicas_higher1">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_matematicas_higher2" android:name="com.produccionestipson.virtualogos.app.decimo_matematicas_higher2">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_matematicas_sl" android:name="com.produccionestipson.virtualogos.app.decimo_matematicas_sl">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_social_studiesa" android:name="com.produccionestipson.virtualogos.app.decimo_social_studiesa">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_social_studiesb" android:name="com.produccionestipson.virtualogos.app.decimo_social_studiesb">
+        </activity>
+        <activity android:label="@string/title_activity_decimo_social_studiesc" android:name="com.produccionestipson.virtualogos.app.decimo_social_studiesc">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_biologia" android:name="com.produccionestipson.virtualogos.app.primerobach_biologia">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_biologiad" android:name="com.produccionestipson.virtualogos.app.primerobach_biologiad">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_es_sociales" android:name="com.produccionestipson.virtualogos.app.primerobach_es_sociales">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_lenguaje" android:name="com.produccionestipson.virtualogos.app.primerobach_lenguaje">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_english_higher" android:name="com.produccionestipson.virtualogos.app.primerobach_english_higher">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_english_sl" android:name="com.produccionestipson.virtualogos.app.primerobach_english_sl">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_fisica" android:name="com.produccionestipson.virtualogos.app.primerobach_fisica">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_quimica" android:name="com.produccionestipson.virtualogos.app.primerobach_quimica">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_matematicas_sl" android:name="com.produccionestipson.virtualogos.app.primerobach_matematicas_sl">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_matematicas_higher" android:name="com.produccionestipson.virtualogos.app.primerobach_matematicas_higher">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_toka" android:name="com.produccionestipson.virtualogos.app.primerobach_toka">
+        </activity>
+        <activity android:label="@string/title_activity_primerobach_tok" android:name="com.produccionestipson.virtualogos.app.primerobach_tok">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_sis_ambiental" android:name="com.produccionestipson.virtualogos.app.segundobach_sis_ambiental">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_economia" android:name="com.produccionestipson.virtualogos.app.segundobach_economia">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_business" android:name="com.produccionestipson.virtualogos.app.segundobach_business">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_es_sociales" android:name="com.produccionestipson.virtualogos.app.segundobach_es_sociales">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_filosofia" android:name="com.produccionestipson.virtualogos.app.segundobach_filosofia">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_fisica" android:name="com.produccionestipson.virtualogos.app.segundobach_fisica">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_lenguaje" android:name="com.produccionestipson.virtualogos.app.segundobach_lenguaje">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_literature" android:name="com.produccionestipson.virtualogos.app.segundobach_literature">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_englishb" android:name="com.produccionestipson.virtualogos.app.segundobach_englishb">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_es_matematicos" android:name="com.produccionestipson.virtualogos.app.segundobach_es_matematicos">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_matematicas_slab" android:name="com.produccionestipson.virtualogos.app.segundobach_matematicas_slab">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_matematicas_slcd" android:name="com.produccionestipson.virtualogos.app.segundobach_matematicas_slcd">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_tok" android:name="com.produccionestipson.virtualogos.app.segundobach_tok">
+        </activity>
+        <activity android:label="@string/title_activity_segundobach_quimica" android:name="com.produccionestipson.virtualogos.app.segundobach_quimica">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_biologia" android:name="com.produccionestipson.virtualogos.app.tercerobach_biologia">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_economics" android:name="com.produccionestipson.virtualogos.app.tercerobach_economics">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_empresas" android:name="com.produccionestipson.virtualogos.app.tercerobach_empresas">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_lenguageb" android:name="com.produccionestipson.virtualogos.app.tercerobach_lenguageb">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_es_matematicos" android:name="com.produccionestipson.virtualogos.app.tercerobach_es_matematicos">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_filosofia" android:name="com.produccionestipson.virtualogos.app.tercerobach_filosofia">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_fisica" android:name="com.produccionestipson.virtualogos.app.tercerobach_fisica">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_literatura" android:name="com.produccionestipson.virtualogos.app.tercerobach_literatura">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_quimica" android:name="com.produccionestipson.virtualogos.app.tercerobach_quimica">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_matematicas_slab" android:name="com.produccionestipson.virtualogos.app.tercerobach_matematicas_slab">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_matematicas_slcd" android:name="com.produccionestipson.virtualogos.app.tercerobach_matematicas_slcd">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_tok" android:name="com.produccionestipson.virtualogos.app.tercerobach_tok">
+        </activity>
+        <activity android:label="@string/title_activity_tercerobach_literature" android:name="com.produccionestipson.virtualogos.app.tercerobach_literature">
+        </activity>
+    </application>
+
+</manifest>

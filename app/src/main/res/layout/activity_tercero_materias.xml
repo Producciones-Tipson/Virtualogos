@@ -1,0 +1,105 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/imagen"
+                android:layout_height="@dimen/imagen"
+                android:id="@+id/imageView"
+                android:src="@drawable/logos_academy" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="English A"
+                    android:id="@+id/button2"
+                    android:onClick="to_tercero_english_a" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="English B"
+                    android:id="@+id/button3"
+                    android:onClick="to_tercero_english_b" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="English C-D"
+                    android:id="@+id/button4"
+                    android:onClick="to_tercero_english_cd" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Environment"
+                    android:id="@+id/button5"
+                    android:onClick="to_tercero_environment" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Lenguaje A-B"
+                    android:id="@+id/button6"
+                    android:onClick="to_tercero_lenguaje_ab" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Lenguaje C-D"
+                    android:id="@+id/button7"
+                    android:onClick="to_tercero_lenguaje_cd" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="Matemáticas"
+                android:id="@+id/button"
+                android:onClick="to_tercero_matematicas" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tipson"
+                android:id="@+id/textView"
+                android:layout_marginTop="30dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
