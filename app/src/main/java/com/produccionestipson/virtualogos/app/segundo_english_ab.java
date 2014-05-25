@@ -19,7 +19,9 @@ public class segundo_english_ab extends ActionBarActivity {
         webSettings.setJavaScriptEnabled(true);
         webSettings.setBuiltInZoomControls(true);
         webView.setWebViewClient(new WebViewClient());
-
+        CookieSyncManager.createInstance(this);
+        CookieSyncManager.getInstance().startSync();
+        CookieManager.getInstance();
     }
 
 

@@ -4,6 +4,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.CookieManager;
+import android.webkit.CookieSyncManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -22,6 +24,9 @@ public class segundo_english_cd extends ActionBarActivity {
         webSettings.setJavaScriptEnabled(true);
         webSettings.setBuiltInZoomControls(true);
         webView.setWebViewClient(new WebViewClient());
+        CookieSyncManager.createInstance(this);
+        CookieSyncManager.getInstance().startSync();
+        CookieManager.getInstance();
     }
 
 
