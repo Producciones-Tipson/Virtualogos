@@ -22,8 +22,7 @@ public class quinto_materias extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getActionBar().setTitle("Materias");
         getSupportActionBar().setTitle("Materias");
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.quinto_materias, menu);
+        // Inflate the menu; this adds items to the action bar if it is present
         return true;
     }
 

@@ -34,7 +34,6 @@ public class sexto_matematicas_higher2 extends ActionBarActivity {
         getActionBar().setTitle("Matemáticas higher level 2");
         getSupportActionBar().setTitle("Matematicas higher level 2");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.sexto_matematicas_higher2, menu);
         return true;
     }
 

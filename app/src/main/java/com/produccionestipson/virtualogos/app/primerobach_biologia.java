@@ -34,7 +34,6 @@ public class primerobach_biologia extends ActionBarActivity {
         getActionBar().setTitle("Biología A-B-C");
         getSupportActionBar().setTitle("Biología A-B-C");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.primerobach_biologia, menu);
         return true;
     }
 

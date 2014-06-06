@@ -34,7 +34,6 @@ public class octavo_english_sl extends ActionBarActivity {
         getActionBar().setTitle("English standard level");
         getSupportActionBar().setTitle("English standard level");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.octavo_english_sl, menu);
         return true;
     }
 

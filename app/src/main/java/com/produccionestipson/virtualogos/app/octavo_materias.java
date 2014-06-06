@@ -22,10 +22,7 @@ public class octavo_materias extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getActionBar().setTitle("Materias");
         getSupportActionBar().setTitle("Materias");
-        getActionBar().setTitle("Materias");
-        getSupportActionBar().setTitle("Materias");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.octavo_materias, menu);
         return true;
     }
 

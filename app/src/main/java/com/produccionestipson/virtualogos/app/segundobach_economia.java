@@ -34,7 +34,6 @@ public class segundobach_economia extends ActionBarActivity {
         getActionBar().setTitle("Economía");
         getSupportActionBar().setTitle("Economía");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundobach_economia, menu);
         return true;
     }
 

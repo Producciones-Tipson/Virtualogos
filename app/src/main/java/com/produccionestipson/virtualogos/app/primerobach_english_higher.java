@@ -34,7 +34,6 @@ public class primerobach_english_higher extends ActionBarActivity {
         getActionBar().setTitle("English higher");
         getSupportActionBar().setTitle("English higher");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.primerobach_english_higher, menu);
         return true;
     }
 

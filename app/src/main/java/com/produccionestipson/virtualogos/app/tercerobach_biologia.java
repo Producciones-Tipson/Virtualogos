@@ -34,7 +34,6 @@ public class tercerobach_biologia extends ActionBarActivity {
         getActionBar().setTitle("Biología");
         getSupportActionBar().setTitle("Biología");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_biologia, menu);
         return true;
     }
 

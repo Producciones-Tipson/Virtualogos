@@ -24,7 +24,6 @@ public class decimo_materias extends ActionBarActivity {
         getActionBar().setTitle("Materias");
         getSupportActionBar().setTitle("Materias");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.decimo_materias, menu);
         return true;
     }
 

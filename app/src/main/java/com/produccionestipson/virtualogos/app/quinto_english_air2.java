@@ -33,8 +33,7 @@ public class quinto_english_air2 extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getActionBar().setTitle("English air 2");
         getSupportActionBar().setTitle("English air 2");
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.quinto_english_air2, menu);
+        // Inflate the menu; this adds items to the action bar if it is present
         return true;
     }
 

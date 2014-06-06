@@ -35,7 +35,6 @@ public class segundo_english_cd extends ActionBarActivity {
         getActionBar().setTitle("English C-D");
         getSupportActionBar().setTitle("English C-D");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundo_english_cd, menu);
         return true;
     }
 

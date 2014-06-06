@@ -550,6 +550,10 @@
             android:name="com.produccionestipson.virtualogos.app.tercerobach_literature"
             android:label="@string/title_activity_tercerobach_literature" >
         </activity>
+        <activity
+            android:name="com.produccionestipson.virtualogos.app.segundobach_horario"
+            android:label="@string/title_activity_segundobach_horario" >
+        </activity>
     </application>
 
 </manifest>

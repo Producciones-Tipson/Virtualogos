@@ -34,7 +34,6 @@ public class segundobach_englishb extends ActionBarActivity {
         getActionBar().setTitle("English B");
         getSupportActionBar().setTitle("English B");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundobach_englishb, menu);
         return true;
     }
 

@@ -34,7 +34,6 @@ public class segundobach_matematicas_slab extends ActionBarActivity {
         getActionBar().setTitle("Matemáticas SL A-B");
         getSupportActionBar().setTitle("Matemáticas SL A-B");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundobach_matematicas_slab, menu);
         return true;
     }
 

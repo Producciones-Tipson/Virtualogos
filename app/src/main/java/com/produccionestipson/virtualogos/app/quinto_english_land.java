@@ -34,7 +34,6 @@ public class quinto_english_land extends ActionBarActivity {
         getActionBar().setTitle("English Land");
         getSupportActionBar().setTitle("English Land");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.quinto_english_land, menu);
         return true;
     }
 

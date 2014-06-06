@@ -21,8 +21,7 @@ public class segundo_bach_materias extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getActionBar().setTitle("Materias");
         getSupportActionBar().setTitle("Materias");
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundo_bach_materias, menu);
+        // Inflate the menu; this adds items to the action bar if it is present
         return true;
     }
 

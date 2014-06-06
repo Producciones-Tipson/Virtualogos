@@ -34,7 +34,7 @@ public class cuarto_es_sociales extends ActionBarActivity {
         getActionBar().setTitle("Es. sociales");
         getSupportActionBar().setTitle("Es. sociales");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.cuarto_es_sociales, menu);
+
         return true;
     }
 

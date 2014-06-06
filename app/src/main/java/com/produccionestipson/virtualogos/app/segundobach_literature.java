@@ -34,7 +34,6 @@ public class segundobach_literature extends ActionBarActivity {
         getActionBar().setTitle("English and Literature");
         getSupportActionBar().setTitle("English and Literature");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundobach_literature, menu);
         return true;
     }
 

@@ -32,7 +32,6 @@ public class sexto_science_bc extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.sexto_science_bc, menu);
         return true;
     }
 

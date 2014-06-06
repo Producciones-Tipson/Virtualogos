@@ -34,7 +34,6 @@ public class segundobach_business extends ActionBarActivity {
         getActionBar().setTitle("Business and management");
         getSupportActionBar().setTitle("Business and management");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundobach_business, menu);
         return true;
     }
 

@@ -138,5 +138,6 @@
     <string name="title_activity_tercerobach_matematicas_slcd">tercerobach_matematicas_slcd</string>
     <string name="title_activity_tercerobach_tok">tercerobach_tok</string>
     <string name="title_activity_tercerobach_literature">tercerobach_literature</string>
+    <string name="title_activity_segundobach_horario">Horario</string>
 
 </resources>

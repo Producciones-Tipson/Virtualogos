@@ -36,7 +36,6 @@ public class tercero_english_b extends ActionBarActivity {
         getActionBar().setTitle("English B");
         getSupportActionBar().setTitle("English B");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercero_english_b, menu);
         return true;
     }
 

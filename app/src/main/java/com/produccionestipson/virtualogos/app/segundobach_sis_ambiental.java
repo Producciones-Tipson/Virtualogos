@@ -34,7 +34,6 @@ public class segundobach_sis_ambiental extends ActionBarActivity {
         getActionBar().setTitle("Sis. Ambientales");
         getSupportActionBar().setTitle("Sis. Ambientales");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundobach_sis_ambiental, menu);
         return true;
     }
 

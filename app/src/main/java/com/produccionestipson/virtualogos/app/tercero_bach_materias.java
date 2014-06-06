@@ -19,15 +19,14 @@ public class tercero_bach_materias extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+	getActionBar().setTitle("Materias");
+	getSupportActionBar().setTitle("Materias");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercero_bach_materias, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        getActionBar().setTitle("Materias");
-        getSupportActionBar().setTitle("Materias");
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
@@ -71,6 +70,22 @@ public class tercero_bach_materias extends ActionBarActivity {
     }
     public void to_3bach_tok (View view){
         Intent i = new Intent(this, tercerobach_tok.class);
+        startActivity(i);
+    }
+    public void to_3bach_filosofia (View view){
+        Intent i = new Intent(this, tercerobach_filosofia.class);
+        startActivity(i);
+    }
+    public void to_3bach_fisica (View view){
+        Intent i = new Intent(this, tercerobach_fisica.class);
+        startActivity(i);
+    }
+    public void to_3bach_literatura (View view){
+        Intent i = new Intent(this, tercerobach_literatura.class);
+        startActivity(i);
+    }
+    public void to_3bach_quimica (View view){
+        Intent i = new Intent(this, tercerobach_quimica.class);
         startActivity(i);
     }
 }

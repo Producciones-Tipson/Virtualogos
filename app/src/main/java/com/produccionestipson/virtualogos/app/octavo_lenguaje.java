@@ -34,7 +34,6 @@ public class octavo_lenguaje extends ActionBarActivity {
         getActionBar().setTitle("Lenguaje");
         getSupportActionBar().setTitle("Lenguaje");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.octavo_lenguaje, menu);
         return true;
     }
 

@@ -34,7 +34,6 @@ public class decimo_english_higher2 extends ActionBarActivity {
         getActionBar().setTitle("English higher level 2");
         getSupportActionBar().setTitle("English higher level 2");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.decimo_english_higher2, menu);
         return true;
     }
 

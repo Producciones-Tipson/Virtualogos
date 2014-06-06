@@ -34,7 +34,6 @@ public class segundobach_matematicas_slcd extends ActionBarActivity {
         getActionBar().setTitle("Matemáticas SL C-D");
         getSupportActionBar().setTitle("Matemáticas SL C-D");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundobach_matematicas_slcd, menu);
         return true;
     }
 

@@ -34,7 +34,6 @@ public class tercerobach_literatura extends ActionBarActivity {
         getActionBar().setTitle("Literatura");
         getSupportActionBar().setTitle("Literatura");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_literatura, menu);
         return true;
     }
 

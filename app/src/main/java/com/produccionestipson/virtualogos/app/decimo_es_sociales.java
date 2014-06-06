@@ -34,7 +34,6 @@ public class decimo_es_sociales extends ActionBarActivity {
         getActionBar().setTitle("Estudios Sociales");
         getSupportActionBar().setTitle("Estudios Sociales");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.decimo_es_sociales, menu);
         return true;
     }
 

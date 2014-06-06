@@ -33,8 +33,7 @@ public class primerobach_toka extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getActionBar().setTitle("TOK A");
         getSupportActionBar().setTitle("TOK A");
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.primerobach_toka, menu);
+        // Inflate the menu; this adds items to the action bar if it is present
         return true;
     }
 

@@ -34,7 +34,6 @@ public class tercerobach_fisica extends ActionBarActivity {
         getActionBar().setTitle("Física");
         getSupportActionBar().setTitle("Física");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_fisica, menu);
         return true;
     }
 

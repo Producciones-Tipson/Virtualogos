@@ -39,7 +39,7 @@ public class cuarto_english_air1 extends ActionBarActivity {
         getActionBar().setTitle("English Air 1");
         getSupportActionBar().setTitle("English Air 1");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.cuarto_english_air1, menu);
+
         return true;
 
     }

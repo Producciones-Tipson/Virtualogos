@@ -34,7 +34,6 @@ public class tercerobach_empresas extends ActionBarActivity {
         getActionBar().setTitle("Empresas Y Gestion");
         getSupportActionBar().setTitle("Empresas Y Gestión");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_empresas, menu);
         return true;
     }
 

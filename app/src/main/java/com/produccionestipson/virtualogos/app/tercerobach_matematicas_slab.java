@@ -34,7 +34,6 @@ public class tercerobach_matematicas_slab extends ActionBarActivity {
         getActionBar().setTitle("Matemáticas Standard level");
         getSupportActionBar().setTitle("Matemáticas Standard level");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_matematicas_slab, menu);
         return true;
     }
 

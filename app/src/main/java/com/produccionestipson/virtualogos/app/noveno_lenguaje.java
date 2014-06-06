@@ -34,7 +34,6 @@ public class noveno_lenguaje extends ActionBarActivity {
         getActionBar().setTitle("lenguaje");
         getSupportActionBar().setTitle("Lenguaje");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.noveno_lenguaje, menu);
         return true;
     }
 

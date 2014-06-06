@@ -34,7 +34,6 @@ public class tercerobach_filosofia extends ActionBarActivity {
         getActionBar().setTitle("Filosofía");
         getSupportActionBar().setTitle("Filosofía");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_filosofia, menu);
         return true;
     }
 

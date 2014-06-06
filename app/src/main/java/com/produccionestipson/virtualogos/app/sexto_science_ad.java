@@ -34,7 +34,6 @@ public class sexto_science_ad extends ActionBarActivity {
         getActionBar().setTitle("Science A-D");
         getSupportActionBar().setTitle("Science A-D");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.sexto_science_ad, menu);
         return true;
     }
 

@@ -34,7 +34,6 @@ public class tercerobach_economics extends ActionBarActivity {
         getActionBar().setTitle("Economics");
         getSupportActionBar().setTitle("Economics");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_economics, menu);
         return true;
     }
 

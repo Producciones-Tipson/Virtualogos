@@ -34,7 +34,6 @@ public class cuarto_science extends ActionBarActivity {
         getActionBar().setTitle("Science");
         getSupportActionBar().setTitle("Science");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.cuarto_science, menu);
         return true;
     }
 

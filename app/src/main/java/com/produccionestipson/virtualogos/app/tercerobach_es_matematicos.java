@@ -34,7 +34,6 @@ public class tercerobach_es_matematicos extends ActionBarActivity {
         getActionBar().setTitle("Estudios Matemáticos");
         getSupportActionBar().setTitle("Estudios Matemáticos");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_es_matematicos, menu);
         return true;
     }
 

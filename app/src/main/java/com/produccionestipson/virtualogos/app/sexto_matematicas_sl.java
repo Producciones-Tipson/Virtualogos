@@ -34,7 +34,6 @@ public class sexto_matematicas_sl extends ActionBarActivity {
         getActionBar().setTitle("Matematicas standard level");
         getSupportActionBar().setTitle("Matemáticas standard level");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.sexto_matematicas_sl, menu);
         return true;
     }
 

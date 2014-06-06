@@ -34,7 +34,6 @@ public class tercerobach_lenguageb extends ActionBarActivity {
         getActionBar().setTitle("Lenguage B");
         getSupportActionBar().setTitle("Lenguage B");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_lenguageb, menu);
         return true;
     }
 

@@ -34,7 +34,6 @@ public class decimo_social_studiesc extends ActionBarActivity {
         getActionBar().setTitle("Social Studies C");
         getSupportActionBar().setTitle("Social Studies C");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.decimo_social_studiesc, menu);
         return true;
     }
 

@@ -34,7 +34,6 @@ public class cuarto_matematicas extends ActionBarActivity {
         getActionBar().setTitle("Matemaáticas");
         getSupportActionBar().setTitle("Matemáticas");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.cuarto_matematicas, menu);
         return true;
     }
 

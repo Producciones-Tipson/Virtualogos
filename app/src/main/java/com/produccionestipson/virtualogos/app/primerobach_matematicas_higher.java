@@ -34,7 +34,6 @@ public class primerobach_matematicas_higher extends ActionBarActivity {
         getActionBar().setTitle("Matemáticas higher level");
         getSupportActionBar().setTitle("Matemáticas higher level");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.primerobach_matematicas_higher, menu);
         return true;
     }
 

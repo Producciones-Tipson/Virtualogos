@@ -34,7 +34,6 @@ public class noveno_social_studies extends ActionBarActivity {
         getActionBar().setTitle("Social Studies");
         getSupportActionBar().setTitle("Social Studies");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.noveno_social_studies, menu);
         return true;
     }
 

@@ -34,7 +34,6 @@ public class septimo_english_water extends ActionBarActivity {
         getActionBar().setTitle("English Water");
         getSupportActionBar().setTitle("English water");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.septimo_english_water, menu);
         return true;
     }
 

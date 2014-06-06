@@ -34,8 +34,7 @@ public class segundo_environment extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getActionBar().setTitle("Environment");
         getSupportActionBar().setTitle("Environment");
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundo_environment, menu);
+        // Inflate the menu; this adds items to the action bar if it is p
         return true;
     }
 

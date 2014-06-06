@@ -36,7 +36,6 @@ public class tercero_matematicas extends ActionBarActivity {
         getActionBar().setTitle("Matemáticas");
         getSupportActionBar().setTitle("Matemáticas");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercero_matematicas, menu);
         return true;
     }
 

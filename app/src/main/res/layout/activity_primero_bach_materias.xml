@@ -95,7 +95,7 @@
                 <Button
                     android:layout_width="@dimen/boton"
                     android:layout_height="wrap_content"
-                    android:text="Físisca"
+                    android:text="Física"
                     android:id="@+id/button7"
                     android:onClick="to_primerobach_fisica" />
 

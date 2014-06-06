@@ -34,7 +34,6 @@ public class tercerobach_tok extends ActionBarActivity {
         getActionBar().setTitle("TOK");
         getSupportActionBar().setTitle("TOK");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercerobach_tok, menu);
         return true;
     }
 

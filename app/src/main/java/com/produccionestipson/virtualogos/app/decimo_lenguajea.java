@@ -34,7 +34,6 @@ public class decimo_lenguajea extends ActionBarActivity {
         getActionBar().setTitle("Lenguaje A");
         getSupportActionBar().setTitle("Lenguaje A");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.decimo_lenguajea, menu);
         return true;
     }
 

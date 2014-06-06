@@ -34,7 +34,6 @@ public class noveno_matematicas_sl extends ActionBarActivity {
         getActionBar().setTitle("Matemáticas standard level");
         getSupportActionBar().setTitle("Matematicas standard level");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.noveno_matematicas_sl, menu);
         return true;
     }
 

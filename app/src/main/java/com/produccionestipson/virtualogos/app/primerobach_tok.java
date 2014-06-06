@@ -34,7 +34,6 @@ public class primerobach_tok extends ActionBarActivity {
         getActionBar().setTitle("TOK B-C-D");
         getSupportActionBar().setTitle("TOK B-C-D");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.primerobach_tok, menu);
         return true;
     }
 

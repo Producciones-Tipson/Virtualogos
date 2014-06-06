@@ -34,7 +34,6 @@ public class decimo_matematicas_higher1 extends ActionBarActivity {
         getActionBar().setTitle("Matemáticas Higher Level 1");
         getSupportActionBar().setTitle("Matemáticas Higher Level 1");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.decimo_matematicas_higher1, menu);
         return true;
     }
 

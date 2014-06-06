@@ -36,7 +36,6 @@ public class tercero_environment extends ActionBarActivity {
         getActionBar().setTitle("Environment");
         getSupportActionBar().setTitle("Environment");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tercero_environment, menu);
         return true;
     }
 

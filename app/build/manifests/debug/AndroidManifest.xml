@@ -277,6 +277,8 @@
         </activity>
         <activity android:label="@string/title_activity_tercerobach_literature" android:name="com.produccionestipson.virtualogos.app.tercerobach_literature">
         </activity>
+        <activity android:label="@string/title_activity_segundobach_horario" android:name="com.produccionestipson.virtualogos.app.segundobach_horario">
+        </activity>
     </application>
 
 </manifest>

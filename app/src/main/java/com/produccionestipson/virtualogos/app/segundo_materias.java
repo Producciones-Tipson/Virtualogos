@@ -27,7 +27,6 @@ public class segundo_materias extends ActionBarActivity {
         getActionBar().setTitle("Materias");
         getSupportActionBar().setTitle("Materias");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.segundo_materias, menu);
         return true;
     }
 
@@ -58,6 +57,18 @@ public class segundo_materias extends ActionBarActivity {
     }
     public void to_segundo_espanol_a (View view){
         Intent i = new Intent(this, segundo_espanol_a.class);
+        startActivity(i);
+    }
+    public void to_segundo_espanol_b (View view){
+        Intent i = new Intent(this, segundo_espanol_b.class);
+        startActivity(i);
+    }
+    public void to_segundo_espanol_c (View view){
+        Intent i = new Intent(this, segundo_espanol_c.class);
+        startActivity(i);
+    }
+    public void to_segundo_espanol_d (View view){
+        Intent i = new Intent(this, segundo_espanol_d.class);
         startActivity(i);
     }
 

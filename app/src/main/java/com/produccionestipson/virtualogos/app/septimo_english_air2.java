@@ -34,7 +34,6 @@ public class septimo_english_air2 extends ActionBarActivity {
         getActionBar().setTitle("English Air 2");
         getSupportActionBar().setTitle("English Air 2");
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.septimo_english_air2, menu);
         return true;
     }
 
