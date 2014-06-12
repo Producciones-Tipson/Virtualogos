@@ -1,0 +1,161 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/imagen"
+                android:layout_height="@dimen/imagen"
+                android:id="@+id/imageView"
+                android:src="@drawable/logos_academy" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Biología A-B-C"
+                    android:id="@+id/button"
+                    android:onClick="to_primerobach_biologia" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Biología D"
+                    android:id="@+id/button2"
+                    android:onClick="to_primerobach_biologiad" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Es. Sociales"
+                    android:id="@+id/button3"
+                    android:onClick="to_primerobach_es_sociales" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Lenguaje"
+                    android:id="@+id/button4"
+                    android:onClick="to_primerobach_lenguaje" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="English Higher"
+                    android:id="@+id/button5"
+                    android:onClick="to_primerobach_english_higher" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="English SL"
+                    android:id="@+id/button6"
+                    android:onClick="to_primerobach_english_sl" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Física"
+                    android:id="@+id/button7"
+                    android:onClick="to_primerobach_fisica" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Química"
+                    android:id="@+id/button8"
+                    android:onClick="to_primerobach_quimica" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Matemáticas Standard"
+                    android:id="@+id/button9"
+                    android:onClick="to_primerobach_matematicas_sl" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="Matemáticas higher"
+                    android:id="@+id/button10"
+                    android:onClick="to_primerobach_matematicas_higher" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="TOK A"
+                    android:id="@+id/button11"
+                    android:onClick="to_primerobach_tok_a" />
+
+                <Button
+                    android:layout_width="@dimen/boton"
+                    android:layout_height="wrap_content"
+                    android:text="TOK B-C-D"
+                    android:id="@+id/button12"
+                    android:onClick="to_primerobach_tok" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tipson"
+                android:id="@+id/textView"
+                android:layout_marginTop="30dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout><!-- From: file:/home/adriantora/AndroidStudioProjects/Virtualogos/app/src/main/res/layout/activity_primero_bach_materias.xml -->

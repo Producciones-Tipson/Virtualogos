@@ -1,13 +1,11 @@
 package com.produccionestipson.virtualogos.app;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
-import com.produccionestipson.virtualogos.app.R;
 
 public class cuarto_materias extends ActionBarActivity {
 
@@ -20,8 +18,6 @@ public class cuarto_materias extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getActionBar().setTitle("Materias");
-        getSupportActionBar().setTitle("Materias");
         getActionBar().setTitle("Materias");
         getSupportActionBar().setTitle("Materias");
         // Inflate the menu; this adds items to the action bar if it is present.
