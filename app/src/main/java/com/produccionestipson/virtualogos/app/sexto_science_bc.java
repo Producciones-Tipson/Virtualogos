@@ -32,13 +32,13 @@ public class sexto_science_bc extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
+        getActionBar().setTitle("Science B-C");
+        getSupportActionBar().setTitle("Science B-C");
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        getActionBar().setTitle("Science B-C");
-        getSupportActionBar().setTitle("Science B-C");
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
