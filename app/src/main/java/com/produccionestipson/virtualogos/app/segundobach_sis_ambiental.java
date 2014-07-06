@@ -1,7 +1,7 @@
 package com.produccionestipson.virtualogos.app;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.CookieManager;
@@ -9,9 +9,12 @@ import android.webkit.CookieSyncManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.webkit.*;
+
 
 
 public class segundobach_sis_ambiental extends ActionBarActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
